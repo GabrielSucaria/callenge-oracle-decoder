@@ -1,0 +1,84 @@
+main{
+     align-items: center;
+
+ }
+
+ h1{
+ 	color: white;
+ 	font-size: 400%;
+    background-color: rgba(98, 102, 104, 0.863);
+ }
+
+
+body{
+	margin: 0px;	
+	padding: 0px;	
+	background-image: url("./img.jpg");
+	font-family: Didot, Candara, Arial, Helvetica, sans-serif;
+}
+
+.header{
+	display: flex;
+ 	justify-content: center;
+    margin-top: 110px;
+
+
+}
+.contenedor-principal{
+	margin-top: 0px;
+	display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(104, 184, 108);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.box {
+  padding: 35px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(98, 102, 104, 0.863);
+  border-radius: 1em;
+  width: 30vw;
+  height: auto;
+}
+
+.tarjeta {
+
+  padding: 35px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(98, 102, 104, 0.863);
+  border-radius: 1em;
+  width: 30vw;
+  height: auto;
+}
+
+.text-input {
+  border-radius: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 1em;
+  width: 90%;
+  height: 100px;
+  font-style:italic;
+  font-size: 18px;
+}
+
+h3{
+font-size:30px; 
+}
+
+.footer{
+	margin-top: 0px;
+	display: flex;
+    justify-content: center;
+}
